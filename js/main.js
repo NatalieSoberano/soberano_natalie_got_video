@@ -5,6 +5,7 @@
 	let silgils = document.querySelectorAll('.sigilContainer'), 
 		lightbox = document.querySelector('.lightbox'),
 		closeLightboxButton = lightbox.querySelector('.close-lightbox');
+		rewind = document.querySelector('close-lightbox');
 
 	// functions in the middle 
 
@@ -18,7 +19,7 @@
 		//debugger
 		lightbox.classList.remove('show-lightbox');
 		//stop the video and rewind it to 0
-		rewind
+		rewind 
 	}
 
 
