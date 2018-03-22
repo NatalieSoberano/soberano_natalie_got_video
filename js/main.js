@@ -4,8 +4,8 @@
 	//variable stack goes here
 	let silgils = document.querySelectorAll('.sigilContainer'), 
 		lightbox = document.querySelector('.lightbox'),
-		closeLightboxButton = lightbox.querySelector('.close-lightbox');
-		rewind = document.querySelector('close-lightbox');
+		closeLightboxButton = lightbox.querySelector('.close-lightbox'),
+		vidPlayer = document.querySelector('video');
 
 	// functions in the middle 
 
@@ -13,13 +13,16 @@
 		//debugger
 		lightbox.classList.add('show-lightbox');
 		//make it play 
+		vidPlayer.play();
 	}
 
 	function closeLightbox () {
 		//debugger
 		lightbox.classList.remove('show-lightbox');
 		//stop the video and rewind it to 0
-		rewind 
+		vidPlayer.pause();
+		vidPlayer.currentTime =0;
+
 	}
 
 
@@ -27,5 +30,7 @@
 
 	silgils.forEach(silgil => silgil.addEventListener('click', showHouseVideo));
 	closeLightboxButton.addEventListener('click', closeLightbox);
+
+
 
 })();
