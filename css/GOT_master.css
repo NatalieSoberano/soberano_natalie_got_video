@@ -129,3 +129,14 @@ video {
 	border: thin solid #949393;
 }
 
+.controls 
+{
+	padding: 2em 0;
+}
+
+[data-icon] {
+	font-size: 3em;
+	color: white;
+	cursor: pointer;
+}
+
