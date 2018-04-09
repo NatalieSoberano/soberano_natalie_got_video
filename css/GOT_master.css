@@ -133,6 +133,34 @@ video {
 	padding: 2em 0;
 }
 
+#play
+{
+	height: 120px;
+	width: 120px;
+	margin: 0 auto;
+}
+
+#sound
+{
+	height: 120px;
+	width: 120px;
+	float: right;
+}
+
+#fastforward
+{
+	height: 120px;
+	width: 120px;
+	float: left;
+}
+
+#rewind
+{
+	height: 120px;
+	width: 120px;
+	float: right;
+}
+
 [data-icon] {
 	font-size: 3em;
 	color: white;
