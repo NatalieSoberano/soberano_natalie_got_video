@@ -10,7 +10,7 @@
 /* ----- end custom font ----- */
 
 /* ----- default styles ----- */
-body { background-image:url(../images/grungeBG.jpg);
+body { background-image:url(../images/background.jpg);
 	background-repeat:no-repeat; background-position:center center;
 	background-color:#000000; font-size:16px; }
 
@@ -18,7 +18,17 @@ h1 {
 	font-family: 'GOT_font';
 	color:white;
 	margin-top:30px;
-	font-size:1.25em;
+	margin-bottom: 30px;
+	font-size:30px;
+}
+
+h1:hover
+{
+	border-bottom: #000 solid 7px;
+	padding-bottom: 10px;
+	border-top: #000 solid 7px;
+	padding-top: 13px;
+	background-color: #585865;
 }
 
 main {
@@ -35,9 +45,10 @@ main {
 	margin:0 auto;
 	/*uncomment below to hide house banners*/
 	overflow:hidden;
+	border: #000 solid 7px;
 }
 
-#houseImages { position:relative; width:4000px; transition: all .5s; }
+#houseImages { position:relative; width:6000px; transition: all .5s; }
 #houseImages img { float:left; }
 
 #bottomNav { margin-top:30px; }
@@ -135,29 +146,29 @@ video {
 
 #play
 {
-	height: 120px;
-	width: 120px;
+	height: 110px;
+	width: 110px;
 	margin: 0 auto;
 }
 
 #sound
 {
-	height: 120px;
-	width: 120px;
+	height: 110px;
+	width: 110px;
 	float: right;
 }
 
 #fastforward
 {
-	height: 120px;
-	width: 120px;
+	height: 110px;
+	width: 110px;
 	float: left;
 }
 
 #rewind
 {
-	height: 120px;
-	width: 120px;
+	height: 110px;
+	width: 110px;
 	float: right;
 }
 
@@ -165,5 +176,22 @@ video {
 	font-size: 3em;
 	color: white;
 	cursor: pointer;
+}
+
+p
+{
+	font-family: 'Times New Roman';
+	color:white;
+	margin-top:30px;
+	font-size:1.25em;
+	line-height: 20px;
+	width: 600px;
+	text-align: center;
+	margin-left: 350px;
+}
+
+p:hover
+{
+	background-color: #000; 
 }
 
