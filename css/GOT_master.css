@@ -19,7 +19,7 @@ h1 {
 	color:white;
 	margin-top:30px;
 	margin-bottom: 30px;
-	font-size:30px;
+	font-size:20px;
 }
 
 h1:hover
@@ -48,7 +48,7 @@ main {
 	border: #000 solid 7px;
 }
 
-#houseImages { position:relative; width:6000px; transition: all .5s; }
+#houseImages { position:relative; width:6000px; transition: all .5s;}
 #houseImages img { float:left; }
 
 #bottomNav { margin-top:30px; }
@@ -92,6 +92,16 @@ main {
 
 .arryn { background-position:-253px -54px; }
 .arryn:hover { background-position:-253px 0px; }
+
+.targaryen { background-position:-303.5px -54px; }
+.targaryen:hover { background-position:-304px 0px; }
+
+.tryell { background-position:-354.5px -54px; }
+.tryell:hover { background-position:-354px 0px; }
+
+.frey { background-position:-504.5px -54px; }
+.frey:hover { background-position:-405px 0px; }
+
 /* ----- end image sprite ----- */
 
 /* ----- classes for transitions ----- */
@@ -139,33 +149,36 @@ video {
 	border: thin solid #949393;
 }
 
-.controls 
+.controls
 {
-	padding: 2em 0;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 #play
 {
 	height: 110px;
 	width: 110px;
-	margin: 0 auto;
+	float: left;
+	margin-left: 250px;
 }
 
-#sound
+.mutedSound
 {
 	height: 110px;
 	width: 110px;
 	float: right;
+	margin-right: 250px;
 }
 
-#fastforward
+.rwd
 {
 	height: 110px;
 	width: 110px;
 	float: left;
 }
 
-#rewind
+.fwd
 {
 	height: 110px;
 	width: 110px;
@@ -195,3 +208,12 @@ p:hover
 	background-color: #000; 
 }
 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: url(.../images/'sound.png');
+    cursor: pointer;
+}

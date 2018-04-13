@@ -12,7 +12,7 @@
 <body>
     <main>
 
-    <h1>clever tagline goes here</h1><!-- replace this with the house name -->
+    <h1>House Stark</h1><!-- replace this with the house name -->
     
     <section id="imageContainer">
       <div id="houseImages" style="right:0"> <!-- add in all of the images to make a scrolling "banner" -->
@@ -43,8 +43,7 @@
              <li><div class="sigilContainer tryell" data-offset="7"></div></li>
              <li><div class="sigilContainer frey" data-offset="8"></div></li>
         </ul>
-    </nav>
-    
+    </nav> 
 </main>
 
 <section class="lightbox">
@@ -53,12 +52,24 @@
     <video>
         <source src="video/House-Stark.mp4" type="video/mp4">
     </video>
-    <div class="controls">
-        <img src="images/play.png" id="play">
-        <img src="images/sound.png" id="sound">
-        <img src="images/fastforward.png" id="fastforward">
-        <img src="images/rewind.png" id="rewind">
-    </div>
+    <section class="controls">
+        <div class="controls">
+            <img src="images/fastforward.png" class="fwd">
+        </div>
+        <div>
+            <img src="images/rewind.png" class="rwd">
+        </div>
+        <div>
+            <img src="images/mutesound.png" class="mutedSound">
+        </div>
+        <div>
+            <img src="images/play.png" id="play">
+        </div>
+    </section>
+     
+    <!--<div class="slidecontainer">
+        <input type="range" min="0" max="200" value="50" class="slider" id="myRange">
+    </div> -->
 </section>
 
 <script src="js/main.js"></script>
