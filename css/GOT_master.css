@@ -94,13 +94,13 @@ main {
 .arryn:hover { background-position:-253px 0px; }
 
 .targaryen { background-position:-304px -54px; }
-.targaryen:hover { background-position:-303px 0px; }
+.targaryen:hover { background-position:-304px 0px; }
 
 .tryell { background-position:-355px -54px; }
-.tryell:hover { background-position:-353px 0px; }
+.tryell:hover { background-position:-355px 0px; }
 
-.frey { background-position:-406px -54px; }
-.frey:hover { background-position:-403px 0px; }
+.frey { background-position:-405px -54px; }
+.frey:hover { background-position:-405px 0px; }
 
 /* ----- end image sprite ----- */
 

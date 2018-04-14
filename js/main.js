@@ -99,7 +99,7 @@
 
 	function fastforward () {
 		debugger;
-		vidPlayer.currentTime = +15;
+		vidPlayer.currentTime +=15;
 	}
 
 	function muteSound () {
